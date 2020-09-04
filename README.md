@@ -268,7 +268,8 @@ Stopping the Docker Tensorflow Server
         ~~~
     - You should see the current output
         <details close>
-        <summary> <b>Output<b></summary>    
+        <summary> <b>Output</b></summary>   
+  
         ~~~
         2020-09-03 18:58:17.434740: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'cudart64_101.dll'; dlerror: cudart64_101.dll not found
         2020-09-03 18:58:17.451207: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
@@ -308,7 +309,7 @@ Stopping the Docker Tensorflow Server
 </details>
 
 <details open>
-<summary> <b>Video Explanation<b></summary>
+<summary> <b>Video Explanation</b></summary>
 
 You could see the results on this youtube video where I explain the usage of this repository.
 
@@ -320,7 +321,7 @@ You could see the results on this youtube video where I explain the usage of thi
 
 </details>
 
->
+
 
 <details open>
 <summary> <b>Issues<b></summary>
