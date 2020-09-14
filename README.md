@@ -232,10 +232,11 @@ Stopping the Docker Tensorflow Server
         ~~~
         C:\Users\<your_user>\AppData\Local\Temp\1
         ~~~
-- Running the tensorflow serving container
+- Running the tensorflow serving container.
+    - Note that you have to change the `<your_user>` account name by your name
     - Run the command below to start the server
         ~~~
-        docker run -p 8501:8501 -p 8500:8500 --mount type=bind,source=//C/Users/issaiass/AppData/Local/Temp,target=/models/fashion_mnist -e MODEL_NAME=fashion_mnist -t tensorflow/serving
+        docker run -p 8501:8501 -p 8500:8500 --mount type=bind,source=//C/Users/<your_user>/AppData/Local/Temp,target=/models/fashion_mnist -e MODEL_NAME=fashion_mnist -t tensorflow/serving
         ~~~
     - This will give you this output
         <details close>
